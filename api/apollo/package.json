@@ -1,0 +1,16 @@
+{
+  "name": "pumhub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@apollo/gateway": "^0.43.1",
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.7.2"
+  }
+}
