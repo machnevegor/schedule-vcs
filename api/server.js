@@ -1,8 +1,10 @@
+require("dotenv").config();
+
 const { ApolloServer } = require("apollo-server");
 const { ApolloGateway } = require("@apollo/gateway");
 
 const gateway = new ApolloGateway({
-  serviceList: [{ name: "Schedule VCS", url: "http://localhost:8080" }],
+  serviceList: [{ name: "vcs", url: process.env.VCS_URI }],
 });
 
 const formatError = (error) => {
