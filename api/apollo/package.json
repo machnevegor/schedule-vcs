@@ -6,7 +6,7 @@
   "scripts": {
     "server": "node server.js"
   },
-  "author": "",
+  "author": "machnevegor",
   "license": "",
   "dependencies": {
     "@apollo/gateway": "^0.43.1",
