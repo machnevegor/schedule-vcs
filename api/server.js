@@ -4,7 +4,7 @@ const { ApolloServer } = require("apollo-server");
 const { ApolloGateway } = require("@apollo/gateway");
 
 const gateway = new ApolloGateway({
-  serviceList: [{ name: "vcs", url: process.env.VCS_URI }],
+  serviceList: [{ name: "vcs", url: process.env.VCS_URL }],
 });
 
 const formatError = (error) => {
