@@ -9,9 +9,9 @@ import version
 
 app = web.Application()
 
-schema = federation.Schema(
-    query=merge_types("ComboQuery", (
-        schedule.Query, student.Query, version.Query)))
+combo_query = merge_types("ComboQuery", (
+    schedule.Query, student.Query, version.Query))
+schema = federation.Schema(combo_query)
 
 app.router.add_view(
     "/", GraphQLView(schema, graphiql=False))
