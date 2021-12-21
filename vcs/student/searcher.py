@@ -4,7 +4,7 @@ from attr import dataclass
 from fuzzywuzzy.fuzz import token_sort_ratio
 
 from student.types import Student
-from utils.env import MONGO_URI, DATABASE_NAME
+from utils.config import MONGO_URI, DATABASE_NAME
 from utils.mongo import MongoClient
 
 

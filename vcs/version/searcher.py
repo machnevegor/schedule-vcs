@@ -1,7 +1,7 @@
 from pymongo import DESCENDING
 
 from student.loader import student_loader
-from utils.env import MONGO_URI, DATABASE_NAME
+from utils.config import MONGO_URI, DATABASE_NAME
 from utils.mongo import MongoClient
 from utils.scalars import OID
 from version.types import Version

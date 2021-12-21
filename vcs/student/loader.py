@@ -2,7 +2,7 @@ from pymongo import DESCENDING
 from strawberry.dataloader import DataLoader
 
 from student.types import Student
-from utils.env import MONGO_URI, DATABASE_NAME
+from utils.config import MONGO_URI, DATABASE_NAME
 from utils.mongo import MongoClient
 from utils.scalars import OID
 
