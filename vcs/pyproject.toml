@@ -2,7 +2,7 @@
 name = "pumhub-vcs"
 version = "1.0.0"
 description = ""
-authors = ["machnevegor <egorikhelp@gmail.com>"]
+authors = ["machnevegor"]
 license = ""
 
 [tool.poetry.dependencies]
