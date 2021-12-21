@@ -16,4 +16,5 @@ schema = federation.Schema(
 app.router.add_view(
     "/", GraphQLView(schema, graphiql=False))
 
-web.run_app(app)
+if __name__ == "__main__":
+    web.run_app(app)
